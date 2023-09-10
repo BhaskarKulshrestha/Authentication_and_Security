@@ -1,6 +1,6 @@
-<h1>Authentication and Security<h1>
+<h1>Authentication and Security</h1>
 
-Authentication is the process of verifying a user's identity
+=>=> *Authentication is the process of verifying a user's identity*
 
 ## Authentication in Web Development
 
