@@ -177,7 +177,7 @@ app.listen(3000, function(){
 
 ---------------------------------------------------------------------------------------
 
-**LEVEL 2:Encryption**
+## LEVEL 2:Encryption
 
 - **`MONGOOSE ENCRYPTION:`**
 Simple encryption and authentication for mongoose documents. Relies on the Node crypto module. Encryption and decryption happen transparently during save and find.
@@ -340,7 +340,7 @@ app.listen(3000, function(){
 });
 ```
 
-**The whole code without using env variables:**
+**The whole code with using env variables:**
 
 ```
 require('dotenv').config();
@@ -433,8 +433,8 @@ app.listen(3000, function () {
 })
 ```
 
----------------------------------------------------------
-**LEVEL 3:Hashing**
+------------------------------------------------------------------------
+## LEVEL 3:Hashing
 
 # Disadvantages of Encryption
 
@@ -626,7 +626,7 @@ app.listen(3000,function(){
 
 --------------------------------------------------------------------------
 
-**LEVEL 4:Hashing and salting**
+## LEVEL 4:Hashing and salting
 
 **`Salting:`**:A salt is a piece of random data added to a password before it is hashed and stored. Adding a salt to stored passwords is a security process used alongside the hashing of passwords before they are stored.
 
@@ -868,10 +868,10 @@ app.listen(3000,function(){
 
 --------------------------------------------------------------------------------
 
-**LEVEL 5: Cookies and Sessions**
+## LEVEL 5: Cookies and Sessions
 
-
-![](https://www.researchgate.net/publication/314289445/figure/fig1/AS:660237199618050@1534424223601/Cookie-based-User-Authentication.png)
+![cookie and session figure](https://www.researchgate.net/publication/314289445/figure/fig1/AS:660237199618050@1534424223601/Cookie-based-User-Authentication.png) <br>
+[cookie and session figure](https://www.researchgate.net/publication/314289445/figure/fig1/AS:660237199618050@1534424223601/Cookie-based-User-Authentication.png)
 
 `COOKIES`  is a small piece of data that a web server sends to a user's web browser. The browser then stores this data and sends it back to the server with subsequent requests. USED TO:session management,personalzation,Tracking and Analytics,Authentication,Shopping Carts,Target Advertismets.
 
